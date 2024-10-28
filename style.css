@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.left-sec{
+    width: 50%;
+    padding: 50px 45px;
+    /* background-color: red; */
+}
+.right-sec{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.login-form{
+    width: 400px;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #EDEFF2;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    padding: 0px 15px;
+    margin: 7px 0px;
+    border: 1px solid #E0E2E5;
+    border-radius: 10px;
+}
+button{
+    width: 90%;
+    height: 50px;
+    padding: 0px 15px;
+    margin: 7px 0px;
+    border: 1px solid #E0E2E5;
+    border-radius: 10px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+}
+.left-sec h1{
+    color: #0866FF;
+    font-size: 55px;
+}
+.left-sec p{
+    font-size: 30px;
+}
+.login-form a{
+    padding: 10px 0px;
+}
+.login-form hr{
+    width: 90%;
+    color: #ECEEF0;
+    height: 0.5px;
+}
+.newacc button{
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #36A420;
+    color: white;
+}
+.right-sec .para p{
+    font-size: 15px;
+    padding: 15px 0px;
+}
+.login-form a{
+    font-size: 15px;
+}
+.right-sec .login-form{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
